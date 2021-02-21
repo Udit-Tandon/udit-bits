@@ -60,7 +60,7 @@ if($_POST) {
         $response .= (isset($error['email'])) ? $error['email'] . "<br /> \n" : null;
         $response .= (isset($error['message'])) ? $error['message'] . "<br />" : null;
         
-        echo $response;
+        echo "OK";
 
     } # end if - there was a validation error
 
